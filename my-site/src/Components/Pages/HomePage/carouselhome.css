@@ -1,0 +1,17 @@
+.textcarousel {
+  color: black; /* Черный цвет текста */
+  padding: 10px; /* Отступы */
+  border-radius: 10px; /* Скругленные углы */
+  display: inline-block; /* Размер рамки по размеру текста */
+  width: 35%;
+  text-align: left; /* Выравнивание текста по левому краю */
+  margin: 0; /* Убираем автоматическое центрирование */
+}
+.carousel-item {
+  display: flex; /* Используем flexbox для выравнивания элементов */
+  align-items: center; /* Выравнивание по центру по вертикали */
+  flex-direction: row-reverse; /* Размещаем текст слева от изображения */
+}
+.carousel-item img {
+  width: 350px;
+}
